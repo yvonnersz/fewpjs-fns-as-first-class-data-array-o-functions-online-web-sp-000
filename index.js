@@ -1,35 +1,43 @@
-var wakeDog = function(dogName="Byron", dogBreed="poodle") {
-  console.log(`Wake ${dogName} the ${dogBreed}`);
-  return `Wake ${dogName} the ${dogBreed}`
+function runFiveMiles() {
+  console.log('Go for a five-mile run');
+}
+function liftWeights() {
+  console.log('Pump iron');
+}
+function swimFortyLaps() {
+  console.log('Swim 40 laps');
 }
 
-var leashDog = function(dogName="Byron", dogBreed="poodle") {
-  console.log(`Leash ${dogName} the ${dogBreed}`);
-  return `Leash ${dogName} the ${dogBreed}`
+function exerciseRoutine(postRunActivity) {
+  runFiveMiles();
+  postRunActivity();
 }
 
-var walkToPark = function(dogName="Byron", dogBreed="poodle") {
-  console.log(`Walk to the park with ${dogName} the ${dogBreed}`);
-  return `Walk to the park with ${dogName} the ${dogBreed}`
+const monday = function() {
+  exerciseRoutine(liftWeights);
 }
 
-var throwFrisbee = function(dogName="Byron", dogBreed="poodle") {
-  console.log(`Throw the frisbee for ${dogName} the ${dogBreed}`);
-  return `Throw the frisbee for ${dogName} the ${dogBreed}`
+const tuesday = function() {
+    exerciseRoutine(swimFortyLaps);
 }
 
-var walkHome = function(dogName="Byron", dogBreed="poodle") {
-  console.log(`Walk home with ${dogName} the ${dogBreed}`);
-  return `Walk home with ${dogName} the ${dogBreed}`
+const wednesday = function() {
+    exerciseRoutine(runFiveMiles);
 }
 
-var unleashDog = function(dogName="Byron", dogBreed="poodle") {
-  console.log(`Unleash ${dogName} the ${dogBreed}`);
-  return `Unleash ${dogName} the ${dogBreed}`
+const thursday = function() {
+    exerciseRoutine(liftWeights);
 }
 
-const routine = [wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog]
+const friday = function() {
+    exerciseRoutine(swimFortyLaps);
+}
 
-function exerciseDog(dog, breed) {
-  return routine.map(fn => fn(dog, breed))
+const functionsArray = [monday,tuesday,wednesday,thursday,friday]
+
+function printRoutine() {
+    for (var value of functionsArray) {
+        console.log(value.name + ":")
+        value()
+    }
 }
