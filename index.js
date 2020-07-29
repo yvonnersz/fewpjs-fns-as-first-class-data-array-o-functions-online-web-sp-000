@@ -7,15 +7,15 @@ function leashDog(name, breed) {
 }
 
 function walkToPark(name, breed) {
-  return `Walk to the park w` Byron the poodle");
+  return `Walk to the park with Byron the poodle`
 }
 
 function throwFrisbee(name, breed) {
-  return `Throw the frisbee for By` the poodle");
+  return `Throw the frisbee for Byron the poodle`
 }
 
 function walkHome(name, breed) {
-  return `Walk home with Byron ` poodle");
+  return `Walk home with Byron the poodle`
 }
 
 function unleashDog(name, breed) {
