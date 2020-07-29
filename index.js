@@ -1,4 +1,4 @@
-function wakeDog() {
+function wakeDog(name, breed) {
   console.log("Wake Byron the poodle");
 }
 
