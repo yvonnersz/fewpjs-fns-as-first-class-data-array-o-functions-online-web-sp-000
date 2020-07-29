@@ -1,5 +1,5 @@
 function wakeDog(name, breed) {
-  return `Wake ${name} the ${breed}`;
+  return `Wake ${name} the ${breed}`
 }
 
 function leashDog(name, breed) {
