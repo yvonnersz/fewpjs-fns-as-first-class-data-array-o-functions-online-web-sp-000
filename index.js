@@ -3,7 +3,7 @@ function wakeDog() {
 }
 
 function leaseDog() {
-
+  console.log("Leash Byron the poodle");
 }
 
 function walkDog() {}
