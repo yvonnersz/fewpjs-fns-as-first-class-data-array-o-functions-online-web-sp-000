@@ -23,5 +23,10 @@ function unleashDog(name, breed) {
 }
 
 function routine(name, breed) {
-
+  return `Wake ${name} the ${breed}`
+  return `Leash ${name} the ${breed}`
+  return `Walk to the park with ${name} the ${breed}`
+  return `Throw the frisbee for ${name} the ${breed}`
+  return `Walk home with ${name} the ${breed}`
+  return `Unleash ${name} the ${breed}`
 }
