@@ -3,21 +3,21 @@ function wakeDog(name, breed) {
 }
 
 function leashDog(name, breed) {
-  console.log("Leash Byron the poodle");
+  return `Leash Byron the poodle`
 }
 
 function walkToPark(name, breed) {
-  console.log("Walk to the park with Byron the poodle");
+  return `Walk to the park w` Byron the poodle");
 }
 
 function throwFrisbee(name, breed) {
-  console.log("Throw the frisbee for Byron the poodle");
+  return `Throw the frisbee for By` the poodle");
 }
 
 function walkHome(name, breed) {
-  console.log("Walk home with Byron the poodle");
+  return `Walk home with Byron ` poodle");
 }
 
 function unleashDog(name, breed) {
-  console.log("Unleash Byron the poodle");
+  return `Unleash Byron the poodle`
 }
