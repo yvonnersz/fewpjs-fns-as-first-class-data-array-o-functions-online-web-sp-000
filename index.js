@@ -23,10 +23,10 @@ function unleashDog(name, breed) {
 }
 
 function routine(name, breed) {
-  return `Wake ${name} the ${breed}`
-  return `Leash ${name} the ${breed}`
-  return `Walk to the park with ${name} the ${breed}`
-  return `Throw the frisbee for ${name} the ${breed}`
-  return `Walk home with ${name} the ${breed}`
-  return `Unleash ${name} the ${breed}`
+  console.log("Wake Byron the poodle");
+  console.log("Leash Byron the poodle");
+  console.log("Walk to the park with Byron the poodle");
+  console.log("Throw the frisbee for Byron the poodle");
+  console.log("Walk home with Byron the poodle");
+  console.log("Unleash Byron the poodle");
 }
