@@ -1,5 +1,5 @@
 function wakeDog(name, breed) {
-  console.log("Wake Byron the poodle");
+  console.log("Wake ${name} the ${breed}");
 }
 
 function leaseDog() {
