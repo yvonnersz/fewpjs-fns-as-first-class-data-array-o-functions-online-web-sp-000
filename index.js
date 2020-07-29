@@ -18,4 +18,6 @@ function walkHome() {
   console.log("Walk home with Byron the poodle");
 }
 
-function unleashDog() {}
+function unleashDog() {
+  console.log("Unleash Byron the poodle");
+}
