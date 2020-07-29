@@ -14,6 +14,8 @@ function throwFrisbee() {
   console.log("Throw the frisbee for Byron the poodle");
 }
 
-function walkHome() {}
+function walkHome() {
+  console.log("Walk home with Byron the poodle");
+}
 
 function unleashDog() {}
