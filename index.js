@@ -2,7 +2,7 @@ function wakeDog(name, breed) {
   console.log(`Wake ${name} the ${breed}`);
 }
 
-function leaseDog() {
+function leashDog() {
   console.log("Leash Byron the poodle");
 }
 
