@@ -21,3 +21,7 @@ function walkHome(name, breed) {
 function unleashDog(name, breed) {
   return `Unleash ${name} the ${breed}`
 }
+
+function routine(name, breed) {
+
+}
