@@ -3,7 +3,7 @@ function wakeDog() {
 }
 
 function leaseDog() {
-  
+
 }
 
 function walkDog() {}
