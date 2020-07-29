@@ -1,5 +1,5 @@
 function wakeDog(name, breed) {
-  console.log(`Wake ${name} the ${breed}``);
+  console.log(`Wake ${name} the ${breed}`);
 }
 
 function leaseDog() {
